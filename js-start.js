@@ -70,3 +70,41 @@ console.log(typeof UserAge);
 UserAge = String(UserAge);
 console.log(UserAge);
 console.log(typeof UserAge);
+
+/*Циклы while for*/
+let num =0;
+while (num < 6) {
+	console.log(num);
+	num++;
+}
+
+for(let num = 0; num < 6; num++) {
+console.log(num);
+}
+
+/*Последнее число будет 0?- false*/
+num = 8;
+while (num) {
+	console.log(num);
+	num--;
+}
+/*переписать на While*/
+for(num = 0; num <3; num++) {
+	console.log(`Число: ${num}`);
+}
+num = 0;
+while (num < 3) {
+console.log(`Число: ${num}`);
+num++;
+}
+
+/*Перкратить работу цикла 1, когда size=1*/
+//Цикл1
+firstfor: for(let num = 0; num <2; num++) {
+	//Цикл2
+	for(let size = 0; size < 3; size++){
+		if(size == 1){break firstfor;
+		}
+		console.log(size);
+	}
+}

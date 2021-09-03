@@ -1,4 +1,4 @@
-
+-
 где я - pwd
 создать папку - mkdir course
 зайти в папку - cd course

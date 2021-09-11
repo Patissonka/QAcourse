@@ -149,7 +149,7 @@ function showMessage (text , name) {
 console.log (`${text}, ${name}!`);
 }
 setInterval(showMessage, 3000, 'Привет', 'Мир');
-
+/*Object*/
 let firstPart = "likes";
 let userInfo2 = {
 	name: "Вася",
@@ -172,3 +172,5 @@ let userInfo3 = {
 console.log(userInfo3);
 console.log(userInfo3.address);
 console.log(userInfo3.address.city);
+
+

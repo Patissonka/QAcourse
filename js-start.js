@@ -108,3 +108,67 @@ firstfor: for(let num = 0; num <2; num++) {
 		console.log(size);
 	}
 }
+
+function getSumm() {
+		let numOne, numTwo;
+		
+		function getNumOne() {
+			numOne = 1;
+		}
+		function getNumTwo() {
+			numTwo = 2;
+		}
+		getNumOne();
+		getNumTwo();
+		
+		let numSumm = numOne + numTwo;
+		console.log(numSumm);
+	}
+getSumm();
+
+/*колбэк*/
+function calcSumm(numOne, numTwo,more, less) {
+	let numSumm = numOne + numTwo;
+	if (numSumm > 3) {
+		more();
+	} else {
+		less();
+	}
+}
+function showMoreMessage() {
+	console.log('Больше чем 3');
+}
+function showLessMessage() {
+	console.log('Меньше чем 3');
+}
+calcSumm(1, 5, showMoreMessage, showLessMessage);
+
+/*setTimeout*/
+
+function showMessage (text , name) {
+console.log (`${text}, ${name}!`);
+}
+setInterval(showMessage, 3000, 'Привет', 'Мир');
+
+let firstPart = "likes";
+let userInfo2 = {
+	name: "Вася",
+	age: 30,
+	[firstPart]: true,
+};
+console.log(userInfo2[firstPart]);
+let key = "name";
+console.log(userInfo2[key]);
+
+let userInfo3 = {
+	name: "Вася",
+	age: 30,
+	address: {
+		city: "Kalistovo",
+		street: "Freedom",
+	}
+		
+};
+console.log(userInfo3);
+console.log(userInfo3.address);
+console.log(userInfo3.address.city);

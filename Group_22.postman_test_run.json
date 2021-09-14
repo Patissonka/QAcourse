@@ -1,0 +1,181 @@
+{
+	"id": "361255f3-f922-4ff5-b0e7-6e0dc712f456",
+	"name": "Group_22",
+	"timestamp": "2021-09-14T07:50:11.021Z",
+	"collection_id": "16277995-8e330b2b-e5c6-48bd-81aa-2802e4c0b758",
+	"folder_id": 0,
+	"environment_id": "115397e1-bc64-4ea3-b95f-172fc52db1be",
+	"totalPass": 1,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3cccc60a-c2e5-4ba7-93cc-4c0a65e00ad8",
+			"name": "EP_1",
+			"url": "http://162.55.220.72:5005/get_method?name=Patissonka&age=34",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				109
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "95f70c09-5a7a-4521-8123-318031442f88",
+			"name": "EP_2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 116,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				116
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "63c2183b-fc9f-47e3-bc2c-a9eaeffed635",
+			"name": "EP_3",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Patissonka&age=34&weight=49",
+			"time": 104,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				104
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "309af5f7-57c0-4d25-8cf5-deacaafa6c93",
+			"name": "EP_4",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Patissonka&age=34&salary=1000",
+			"time": 112,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				112
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "05436ec0-0168-415e-a520-f00deff01375",
+			"name": "EP_5",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Patissonka&age=34&salary=1000",
+			"time": 113,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				113
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "54a2bd3e-89f0-438e-8fde-37ff23a8ad2d",
+			"name": "EP_6",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Patissonka&age=34&salary=1001",
+			"time": 118,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				118
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "894acb8c-fb55-4c7c-a772-d00e59bd99e7",
+			"name": "EP_7",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 110,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				110
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 782,
+	"collection": {
+		"requests": [
+			{
+				"id": "3cccc60a-c2e5-4ba7-93cc-4c0a65e00ad8",
+				"method": "GET"
+			},
+			{
+				"id": "95f70c09-5a7a-4521-8123-318031442f88",
+				"method": "POST"
+			},
+			{
+				"id": "63c2183b-fc9f-47e3-bc2c-a9eaeffed635",
+				"method": "GET"
+			},
+			{
+				"id": "309af5f7-57c0-4d25-8cf5-deacaafa6c93",
+				"method": "GET"
+			},
+			{
+				"id": "05436ec0-0168-415e-a520-f00deff01375",
+				"method": "GET"
+			},
+			{
+				"id": "54a2bd3e-89f0-438e-8fde-37ff23a8ad2d",
+				"method": "GET"
+			},
+			{
+				"id": "894acb8c-fb55-4c7c-a772-d00e59bd99e7",
+				"method": "POST"
+			}
+		]
+	}
+}
